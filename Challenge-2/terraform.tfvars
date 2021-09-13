@@ -1,5 +1,5 @@
 region="us-central"
-project="packertesting"
+project="****"
 user="****"
 firewall_name="sshrule"
 network="default"
