@@ -8,6 +8,6 @@ provider "google" {
 provider "google-beta" {
   version     = "3.84.0"
   credentials = file(var.serviceaccountjson)
-  project     = var.project_idi
+  project     = var.project_id
   region      = var.region
 }
