@@ -3,6 +3,6 @@ terraform {
   backend "gcs" {
     bucket = "state-bucket"
     prefix = "terraform"
-    credentials = "test.json"
+    credentials = file("test.json")
  }
 }
