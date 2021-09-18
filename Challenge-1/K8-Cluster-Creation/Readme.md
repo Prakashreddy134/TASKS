@@ -1,5 +1,5 @@
-The Directory files help to create GKE cluster in google using terraform
-Main.tf file contains resorce creation code for cluster and node pool which uses default network and subnetwork
+1. The Directory files help to create GKE cluster in google using terraform.
+2. Main.tf file contains resorce creation code for cluster and node pool which uses default network and subnetwork
 variables.tf container variables which are being used in script
 terraform.auto.tfvars file contains actual values which will be passed to main.tf file
 provider.tf files containes project id and service account json along with provider plugins for google to authenticate to gcp
